@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài khoản</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/DOAN.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+    <header class="header">
+        <div class="grid grid-height">
+            <div class="header-with-search">
+                <div class="header__logo">
+                    <a class="header__logo-link" href="./index.html"><img class="header__logo-img" src="assets/img/logo vstyle.png" alt="logo Vstyle.vn"></a>
+                </div>
+                <div class="header__search">
+                    <div class="header__search-input-wrap">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm...">
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-h3">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Nước hoa nam</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Nước hoa nữ</a>
+                                    </li>
+                                </ul>
+                            
+                        </div>
+                    </div>
+                    <button class="header__search-btn">
+                        <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                
+                <div class="header__user header__user-none">
+                    <img class="header__user-icon" src="//theme.hstatic.net/1000391653/1000983112/14/phone.png?v=639" data-src="//theme.hstatic.net/1000391653/1000983112/14/phone.png?v=639" width="28" alt="phone" data-was-processed="true">
+                        <span>
+                            <div class="header__user-login header__user-login-support">
+                                <a  class="header__user-login-link">Hỗ trợ khách hàng</a>
+                            </div>
+                            <div class="header__user-register">
+                                <a  class="header__user-register-link header__user-register-hotline"><b>19086221</b></a>
+                            </div>
+                        </span>
+                        
+                </div>
+                <div class="header__user header__user-none">
+                    <a href="./login.html"><img class="header__user-icon" src="//theme.hstatic.net/1000391653/1000983112/14/account.png?v=618" data-src="//theme.hstatic.net/1000391653/1000983112/14/account.png?v=618" width="28" alt="phone" fill="#fff"></a>
+                        <span>
+                            <div class="header__user-login">
+                                <a href="./login.html" class="header__user-login-link">Đăng nhập</a>
+                            </div>
+                            <div class="header__user-register">
+                                <a href="./register.html" class="header__user-register-link">Đăng ký</a>
+                            </div>
+                        </span>
+                        
+                </div>
+                
+                
+                <div class="header__cart header__user-none">
+                    <div class="header__cart-link">
+                        <a href="./cart.html    " >
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <span class="header__cart-notice">
+                            3
+                        </span>
+                        <!-- header__cart-list-no-cart -->
+                            <div class="header__cart-list">
+                                <img src="assets/img/no-cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+                                <h4 class="header__cart-h4">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <a href="./cart.html" class="header__cart-list-item-link">
+                                        <li class="header__cart-item">
+                                            <img src="assets/img/gio hang 1.jpg" alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">
+                                                        Nước Hoa Mini Versace Pour Homme 5ml
+                                                    </h5>
+                                                    <div class="header__cart-item-body">
+                                                        <span class="header__cart-item-description">5ml</span>
+                                                        
+                                                    </div>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">
+                                                            139,000đ
+                                                        </span>
+                                                        <span class="header__cart-item-mutiply">
+                                                            x
+                                                        </span>
+                                                        <span class="header__cart-item-qnt">2</span>
+                                                    </div>
+                                                    <div class="header__cart-remove">
+                                                        <span class="header__cart-item-remove">Xóa</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </li>
+                                    </a>
+                                    
+                                    <a href="./cart.html" class="header__cart-list-item-link">
+                                        <li class="header__cart-item">
+                                            <img class="header__cart-img" src="//product.hstatic.net/1000391653/product/c-hoa-calvin-klein-euphoria-for-women_1d2f5181645545089b2bb9cb036082bb_28eed5e1b1064e308625a5a74db9982e_large.jpg" style="--image-scale: 1" data-src="//product.hstatic.net/1000391653/product/c-hoa-calvin-klein-euphoria-for-women_1d2f5181645545089b2bb9cb036082bb_28eed5e1b1064e308625a5a74db9982e_large.jpg" alt="Nước Hoa Calvin Klein Euphoria For Women EDP 100ml" data-was-processed="true">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">
+                                                        Nước Hoa Calvin Klein Euphoria For Women EDP 100ml
+                                                    </h5>
+                                                    <div class="header__cart-item-body">
+                                                        <span class="header__cart-item-description">100ml</span>
+                                                        
+                                                    </div>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">
+                                                            1,450,000₫
+                                                        </span>
+                                                        <span class="header__cart-item-mutiply">
+                                                            x
+                                                        </span>
+                                                        <span class="header__cart-item-qnt">1</span>
+                                                    </div>
+                                                    <div class="header__cart-remove">
+                                                        <span class="header__cart-item-remove">Xóa</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </a>
+                                    <a href="./cart.html" class="header__cart-list-item-link">
+                                        <li class="header__cart-item">
+                                            <img class="header__cart-img" src="//product.hstatic.net/1000391653/product/75t-calvin-klein-man-edt-100ml-tester_fbd74d52d9994df688048ee83939599d_35e7c2c9bc4d49e598a5a9b2dc83f74f_large.jpg" style="--image-scale: 0.8" data-src="//product.hstatic.net/1000391653/product/75t-calvin-klein-man-edt-100ml-tester_fbd74d52d9994df688048ee83939599d_35e7c2c9bc4d49e598a5a9b2dc83f74f_large.jpg" alt="Nước Hoa Calvin Klein Man EDT 100ml" data-was-processed="true">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">
+                                                        Nước Hoa Calvin Klein Man EDT 100ml
+                                                    </h5>
+                                                    <div class="header__cart-item-body">
+                                                        <span class="header__cart-item-description">100ml</span>
+                                                        
+                                                    </div>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">
+                                                            1,340,000₫
+                                                        </span>
+                                                        <span class="header__cart-item-mutiply">
+                                                            x
+                                                        </span>
+                                                        <span class="header__cart-item-qnt">3</span>
+                                                    </div>
+                                                    <div class="header__cart-remove">
+                                                        <span class="header__cart-item-remove">Xóa</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </li>
+                                    </a>
+                                </ul>
+                                <a href="./cart.html">
+                                    <button class="header__cart-view btn2 ">Xem giỏ hàng</button>
+                                </a>
+                            </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="header__with-990">
+                <div class="header__search header__search-990" >
+                    <div class="header__search-input-wrap">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm...">
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-h3">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Nước hoa nam</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Nước hoa nữ</a>
+                                    </li>
+                                </ul>
+                            
+                        </div>
+                    </div>
+                    <button class="header__search-btn">
+                        <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    
+            </div>
+            <div class="header__user header__user-none">
+                <img class="header__user-icon" src="//theme.hstatic.net/1000391653/1000983112/14/phone.png?v=639" data-src="//theme.hstatic.net/1000391653/1000983112/14/phone.png?v=639" width="28" alt="phone" data-was-processed="true">
+                    <span>
+                        <div class="header__user-login header__user-login-support">
+                            <a  class="header__user-login-link">Hỗ trợ khách hàng</a>
+                        </div>
+                        <div class="header__user-register">
+                            <a  class="header__user-register-link header__user-register-hotline"><b>19086221</b></a>
+                        </div>
+                    </span>
+                    
+            </div>
+            <div class="header__user">
+               <a href="./login.html"> <img class="header__user-icon" src="//theme.hstatic.net/1000391653/1000983112/14/account.png?v=618" data-src="//theme.hstatic.net/1000391653/1000983112/14/account.png?v=618" width="28" alt="phone" fill="#fff"></a>
+                    <span>
+                        <div class="header__user-login">
+                            <a href="./login.html" class="header__user-login-link header__user-none">Đăng nhập</a>
+                        </div>
+                        <div class="header__user-register">
+                            <a href="./register.html" class="header__user-register-link header__user-none">Đăng ký</a>
+                        </div>
+                    </span>
+                    
+            </div>
+            
+            
+            <div class="header__cart">
+                <div class="header__cart-link">
+                    <a href="./cart.html">
+                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <span class="header__cart-notice">
+                        3
+                    </span>
+                    <!-- header__cart-list-no-cart -->
+                        <div class="header__cart-list">
+                            <img src="assets/img/no-cart.png" alt="" class="header__cart-no-cart-img">
+                            <span class="header__cart-list-no-cart-msg">
+                                Chưa có sản phẩm
+                            </span>
+                            <h4 class="header__cart-h4">Sản phẩm đã thêm</h4>
+                            <ul class="header__cart-list-item">
+                                <li class="header__cart-item">
+                                    <img src="assets/img/gio hang 1.jpg" alt="" class="header__cart-img">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">
+                                                Nước Hoa Mini Versace Pour Homme 5ml
+                                            </h5>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">5ml</span>
+                                                
+                                            </div>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">
+                                                    139,000đ
+                                                </span>
+                                                <span class="header__cart-item-mutiply">
+                                                    x
+                                                </span>
+                                                <span class="header__cart-item-qnt">2</span>
+                                            </div>
+                                            <div class="header__cart-remove">
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img class="header__cart-img" src="//product.hstatic.net/1000391653/product/c-hoa-calvin-klein-euphoria-for-women_1d2f5181645545089b2bb9cb036082bb_28eed5e1b1064e308625a5a74db9982e_large.jpg" style="--image-scale: 1" data-src="//product.hstatic.net/1000391653/product/c-hoa-calvin-klein-euphoria-for-women_1d2f5181645545089b2bb9cb036082bb_28eed5e1b1064e308625a5a74db9982e_large.jpg" alt="Nước Hoa Calvin Klein Euphoria For Women EDP 100ml" data-was-processed="true">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">
+                                                Nước Hoa Calvin Klein Euphoria For Women EDP 100ml
+                                            </h5>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">100ml</span>
+                                                
+                                            </div>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">
+                                                    1,450,000₫
+                                                </span>
+                                                <span class="header__cart-item-mutiply">
+                                                    x
+                                                </span>
+                                                <span class="header__cart-item-qnt">1</span>
+                                            </div>
+                                            <div class="header__cart-remove">
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                                <li class="header__cart-item">
+                                    <img class="header__cart-img" src="//product.hstatic.net/1000391653/product/75t-calvin-klein-man-edt-100ml-tester_fbd74d52d9994df688048ee83939599d_35e7c2c9bc4d49e598a5a9b2dc83f74f_large.jpg" style="--image-scale: 0.8" data-src="//product.hstatic.net/1000391653/product/75t-calvin-klein-man-edt-100ml-tester_fbd74d52d9994df688048ee83939599d_35e7c2c9bc4d49e598a5a9b2dc83f74f_large.jpg" alt="Nước Hoa Calvin Klein Man EDT 100ml" data-was-processed="true">
+                                    <div class="header__cart-item-info">
+                                        <div class="header__cart-item-head">
+                                            <h5 class="header__cart-item-name">
+                                                Nước Hoa Calvin Klein Man EDT 100ml
+                                            </h5>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">100ml</span>
+                                                
+                                            </div>
+                                            <div class="header__cart-item-price-wrap">
+                                                <span class="header__cart-item-price">
+                                                    1,340,000₫
+                                                </span>
+                                                <span class="header__cart-item-mutiply">
+                                                    x
+                                                </span>
+                                                <span class="header__cart-item-qnt">3</span>
+                                            </div>
+                                            <div class="header__cart-remove">
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                            <button  class="header__cart-view btn2" style="margin-top: 10px;">Xem giỏ hàng</button>
+                        </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+            
+         
+    </header>
+    <div class="header__menu">
+        <ul class="header__menu-list">
+            <a href="./DOAN.html" class="header__menu-list-item-link"><li class="header__menu-list-item"><i class="menu-list-icon-bolt fa-sharp fa-solid fa-bolt fa-beat"></i> Flash Sale</li></a>
+            
+                <li class="header__menu-list-item">
+                    Nước Hoa Nam  <i class="header__menu-icon menu-list-icon fa-solid fa-angle-down"></i>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Floral</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Woody</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Fruity</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Aquatic</a>
+                        </li>
+                    </ul>
+                </li>
+           
+            
+            
+                <li class="header__menu-list-item">
+                    Nước Hoa Nữ  <i class="header__menu-icon menu-list-icon fa-solid fa-angle-down"></i>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Floral</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Woody</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Fruity</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Aquatic</a>
+                        </li>
+                    </ul>
+                </li>
+         
+          
+                <li class="header__menu-list-item">
+                    Nước Hoa Mini  <i class="header__menu-icon menu-list-icon fa-solid fa-angle-down"></i>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Floral</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Woody</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Fruity</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Aquatic</a>
+                        </li>
+                    </ul>
+                </li>
+          
+            
+                <li class="header__menu-list-item">
+                    Nước Hoa Unisex <i class="header__menu-icon menu-list-icon fa-solid fa-angle-down"></i>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Floral</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Woody</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Fruity</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Aquatic</a>
+                        </li>
+                    </ul>
+                </li>
+           
+           
+                <li class="header__menu-list-item">
+                    Nước Hoa Chiết <i class="header__menu-icon menu-list-icon fa-solid fa-angle-down"></i>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Floral</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Woody</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Fruity</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a href="./DOAN.html">Nước Hoa Hương Aquatic</a>
+                        </li>
+                    </ul>
+                </li>
+            
+            <a href="./DOAN.html" class="header__menu-list-item-link"><li class="header__menu-list-item none">Tất cả</li></a>
+        </ul>
+    </div>
+        <div class="Main">
+            <div class="login">
+                <h2 class="login-heading">Đăng nhập tài khoản</h2>
+                <div class="login-user">
+                    <span class="login-user-account">
+                        Email
+                    </span>
+                    <input class="login-user-input" type="text" name="" id="" placeholder="Email">
+                    <div class="login-user">
+                        <span class="login-user-account">Mật Khẩu</span>
+                        <input class="login-user-input" type="password" name="" id="" placeholder="Mật Khẩu">
+                    </div>
+                    <div class="login-remmember">
+                        <span class="login-remmember-checkbox"> <input type="checkbox" name="" id="" > &nbsp; Remmember me</span>
+                        <span class="login-forgot">Forgot password</span>
+                    </div>
+                </div>
+                <div class="login-submit">
+                    <input class="login-login" type="submit" value="Đăng nhập">
+                </div>
+                <div class="login-answer">
+                    <p>Bạn đã chưa có tài khoản? <a href="./register.html">Đăng ký</a></p>
+                </div>
+                <h3 class="login-heading-h3">Hoặc đăng nhập bằng</h3>
+                <ul class="login-list">
+                    <li>
+                       <a href="https://www.facebook.com/?stype=lo&jlou=AfeNXyjK34aZ7f3EQmXrkKKfTnrte22OnHzpWaJoi4X71exVX8jDu3vN4zjjoUXn6PswVbzPH7JUPrf4vjoRVksL3Sa-DRzbe-eKCVmWu73vnw&smuh=22373&lh=Ac_6VvLjwJik2rhUUw4"><i class="login-icon-f fa-brands fa-facebook"></i></a> 
+                    </li>
+                    <li>
+                       <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1274313947%3A1683394990030513&authuser=0&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3D%25C4%2591%25C4%2583ng%2Bnh%25E1%25BA%25ADp%2Bgg%26oq%3D%25C4%2591anh%2Bnh%25E1%25BA%25ADp%2Bgg%26aqs%3Dchrome.1.69i57j0i13i433i512j0i13i512l4j0i10i13i512j0i13i512l3.3919j0j7%26sourceid%3Dchrome%26ie%3DUTF-8&ec=GAlAAQ&hl=vi&flowName=GlifWebSignIn&flowEntry=AddSession"><i class="login-icon-g fa-brands fa-google"></i></a> 
+                    </li>
+                    <li>
+                       <a href="https://twitter.com/i/flow/login"><i class="login-icon-t fa-brands fa-twitter"></i></a> 
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <footer class="footter">
+            <div class="grid">
+                <div class="grid__row grid__row-990">
+                    <div class="grid__column-2-3">
+                        <h2 class="footter__header">
+                            Thông Tin Sinh Viên
+                        </h2>
+                        <ul class="footter__list">
+                            <li class="footter__list-item">
+                                Lương Công Nhã Quân
+                            </li>
+                            <li class="footter__list-item">
+                                MSSV: 2001216077
+                            </li>
+                            <li class="footter__list-item">
+                                Lớp: 12DHTH10
+                            </li>
+                            <li class="footter__list-item">
+                                SDT: 0973711952
+                            </li>
+                            <li class="footter__list-item">
+                               Gmail: quannha916@gmail.com
+                            </li>
+                            <li class="footter__list-item">
+                                Tên Đồ Án : Thiết Kế Web Bán Nước Hoa
+                             </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-3 grid__column-2-3-none">
+                        <h2 class="footter__header">
+                            Dịch Vụ Cửa Hàng
+                        </h2>
+                        <ul class="footter__list">
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Chính sách giao hàng</a>
+                            </li>
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Chính sách đổi sản phẩm</a>
+                            </li>
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Chính sách bảo hành</a>
+                            </li>
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Hướng dẫn mua hàng - Thanh toán</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-3 grid__column-2-3-none">
+                        <h2 class="footter__header">
+                            Dịch Vụ & Hỗ Trợ
+                        </h2>
+                        <ul class="footter__list">
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Giới thiệu về công ty</a>
+                            </li>
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Tuyển dụng</a>
+                            </li>
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Tư vấn</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-3">
+                        <h2 class="footter__header">
+                            Thông tin mạng xã hội
+                        </h2>
+                        <ul class="footter__list">
+                            <div class="footter__list-item-icon">
+                                <li class="footter__list-item">
+                                    <a href="https://www.facebook.com/quan.luong.5817300" class="footter__list-item-link">
+                                        <i class="footter__list-item-link-icon fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="footter__list-item">
+                                    <a href="https://www.instagram.com/vuan49/" class="footter__list-item-link">
+                                        <i class="footter__list-item-link-icon fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid__column-2-990">
+                    <div class="grid__column-2-3-990">
+                        <h2 class="footter__header">
+                            Dịch vụ Cửa Hàng
+                        </h2>
+                        <ul class="footter__list">
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Chính sách giao hàng</a>
+                            </li>
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Chính sách đổi sản phẩm</a>
+                            </li>
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Chính sách bảo hành</a>
+                            </li>
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Hướng dẫn mua hàng - Thanh toán</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-3-990 grid__column-2-3-990-padding-left">
+                        <h2 class="footter__header">
+                            Dịch Vụ & Hỗ Trợ
+                        </h2>
+                        <ul class="footter__list">
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Giới thiệu về công ty</a>
+                            </li>
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Tuyển dụng</a>
+                            </li>
+                            <li class="footter__list-item">
+                                <a href="" class="footter__list-item-link">Tư vấn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="grid__column-12">
+                    
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
